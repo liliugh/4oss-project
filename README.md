@@ -1,32 +1,34 @@
 # 4oss-project
 
-## second level heder
+This is an overview of the markdown syntax.
+
+## Second level header
 
 ### 3rd level header
 
 Demo material from May 2019 4OSS Workshop
-[add link directly]()
 
-[link-reference]:https://pad.carpentries.org/2019-05-15-4oss
+[add links directly](https://softdev4research.github.io/4OSS-lesson/02-make-it-public/index.html)
+[or referenced at end of file][link-reference]
+
+[link-reference]: https://pad.carpentries.org/2019-05-15-4oss
 
 Format text:
-_Bold_ or **bold**
+__Bold__ or **bold**
 _italic_ or *italic*
-~~~strikethrough~~~
+~~strikethrough~~
 
--Lists
--with minus symbols
+- Lists
+- with minus symbols
 
-*or
+* or
+* with asterisks
 
-*with asterisks
+`format text as code` with backticks
 
-format text as code with backicks
-
-```
-
-for filename in *。frestq
+```bash
+for filename in *.fastq
 do
-  echo${filename}
+  echo ${filename}
 done
-'''
+```
